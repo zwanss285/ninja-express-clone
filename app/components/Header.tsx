@@ -224,7 +224,7 @@ export default function Header() {
 
             {/* Mobile Menu Button */}
             <button 
-              className="lg:hidden text-ninja-dark"
+              className="lg:hidden text-ninja-white"
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
