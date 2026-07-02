@@ -198,8 +198,8 @@ export default function Header() {
               <Image 
                 src="/image/ninjaxpress-logo-white.png"
                 alt="Ninja Xpress Logo"
-                width={75}
-                height={75}
+                width={50}
+                height={50}
                 className="object-contain"
                 priority
               />
@@ -242,7 +242,7 @@ export default function Header() {
                       openPopup(label)
                       setIsOpen(false)
                     }}
-                    className="text-left text-ninja-dark hover:text-ninja-red transition font-medium py-2 px-4 hover:bg-gray-50 rounded-lg"
+                    className="text-left text-ninja-white hover:text-ninja-red transition font-medium py-2 px-4 hover:bg-gray-50 rounded-lg"
                   >
                     {label}
                   </button>

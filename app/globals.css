@@ -23,10 +23,18 @@
   animation: fadeIn 0.2s ease-out;
 }
 
-/* Utility untuk line clamp */
-.line-clamp-3 {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+/* Fix untuk mobile - prevent overflow */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
 }
